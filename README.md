@@ -8,5 +8,20 @@ The calculation was in feet, inches and pounds so I re wrote the code in my own 
 
 ## Week 2: program that takes asks a user to input a string and outputs every second letter in reverse order called secondstring.py
     I used the reference:
-        >https://stackoverflow.com/questions/25375794/how-to-reverse-the-order-of-letters-in-a-string-in-python
+        > https://stackoverflow.com/questions/25375794/how-to-reverse-the-order-of-letters-in-a-string-in-python
+
 This code only reversed the code so I changed the 1 to a 2 so that it would only print every second letter
+
+## Week 2: program that inputs any positive integer and if the value is even, divide it by two, but if it is odd, multiply it by three and add one. The Program ends when the current value is 1.
+    I used the reference:
+        > https://stackoverflow.com/questions/13366830/collatz-conjecture-sequence
+
+This code had it's first statement as:
+ if x < 1:
+       return []
+    while x > 1:
+
+I changed this to:
+ while number != 1:
+
+ This makes the code a bit tidier as it has less lines.
