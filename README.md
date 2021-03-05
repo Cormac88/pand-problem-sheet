@@ -29,3 +29,9 @@ I changed this to:
 ## Week 5: Program that outputs whether or not today is a weekday.
     I used the reference:
         > https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
+
+## Week 6: Program that takes a positive floating-point number as input and outputs an approximation of its square root.
+    I used the references:
+        > https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEEjBWj7Qaa
+        > https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+        > https://stackoverflow.com/questions/52792987/unused-variable-in-a-for-loop
