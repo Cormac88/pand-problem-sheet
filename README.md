@@ -35,3 +35,7 @@ I changed this to:
         > https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEEjBWj7Qaa
         > https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
         > https://stackoverflow.com/questions/52792987/unused-variable-in-a-for-loop
+
+## Week 7: Program that reads in a text file and outputs the number of e's it contains.
+    I used the reference:
+        > https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/
