@@ -37,5 +37,9 @@ I changed this to:
         > https://stackoverflow.com/questions/52792987/unused-variable-in-a-for-loop
 
 ## Week 7: Program that reads in a text file and outputs the number of e's it contains.
-    I used the reference:
+    I used the references:
         > https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/
+        > https://appdividend.com/2019/01/22/python-sys-argv-tutorial-command-line-arguments-example/
+    
+    Please note that an arguement must be passed through the command line of this program. Add the text file that 
+    you want to have analysed after the program name. Eg. python .\es.py .\moby-dick.txt
