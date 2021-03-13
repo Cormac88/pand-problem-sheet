@@ -43,3 +43,14 @@ I changed this to:
     
     Please note that an arguement must be passed through the command line of this program. Add the text file that 
     you want to have analysed after the program name. Eg. python .\es.py .\moby-dick.txt
+
+## Week 8: Program that reads in a text file and outputs the number of e's it contains.
+    I used the references:
+        > https://www.geeksforgeeks.org/numpy-linspace-python/
+        > https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_title.html
+        > https://stackoverflow.com/questions/8209568/how-do-i-draw-a-grid-onto-a-plot-in-python
+        > https://www.w3schools.com/python/matplotlib_markers.asp
+        > https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylim.html
+
+    Something to note in this plot is that the reason that the y-axis goes up to 64 is beacuse the x ranges from 0-4,
+    thus the maximum value is 4 ** 3 which is 64.

@@ -34,4 +34,4 @@ print (occurrences)
 # Made an assumption that the client only wanted the lower case e's counted because this information
 # was not specified. If they had wanted upper and lower case they would have specified this information,
 # but since I was only told to "write a program that reads in a text file and outputs the number of e's 
-# it contains.", I think that it is safe to assume that the cline only wants the lower case e's
+# it contains.", I think that it is safe to assume that the cline only wants the lower case e's.
