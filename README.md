@@ -20,13 +20,16 @@ This code only reversed the code so I changed the 1 to a 2 so that it would only
         https://stackoverflow.com/questions/13366830/collatz-conjecture-sequence
 
 This code had it's first statement as:
- ```if x < 1:
+```
+if x < 1:
        return []
-    while x > 1:```
+    while x > 1:
+```
 
 I changed this to:
- ```while number != 1:```
-
+```
+ while number != 1:
+```
  This makes the code a bit tidier as it has less lines.
 
 ## Week 5: Program that outputs whether or not today is a weekday.
