@@ -21,13 +21,17 @@
 # The code below illustrates this 
 # (https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method).
 
-def newton_method(number, number_iters = 100):    # Funtion that has 2 arguments
+def newton_method(number, number_iters = 100):    # Funtion that has 2 arguments.
+                                                  
     
     a = float(number)   # The first guess is going to be the same number that the user enters, not a good
                         # Approximation but it is a starting point    
                     
     for _ in range(number_iters):                     
         number = round(0.5 * (number + a / number), 1)
+         
+        # number_iters is the amount of times that the answer to the above equation will be plugged back into
+        # the equation
 
     return number
 
@@ -37,5 +41,13 @@ def newton_method(number, number_iters = 100):    # Funtion that has 2 arguments
 # (https://stackoverflow.com/questions/52792987/unused-variable-in-a-for-loop)
 
 a = float(input("Please enter a positive number: ")) # Asks the user to input a value to find the square root of
+
+while a <= 0:
+    a = float(input("Please enter a positive number: "))
+
+# This while loop is used to stop the error of negative numbers being used in this equation, as they are not
+# allowed in this formula. This is becuse you cannot get the square root of a negative number as this gets
+# into complex numbers (√(-1) = i). The while loop is completed when the user enters a positive number.
+# https://stackoverflow.com/questions/22214787/python-repeat-while-user-enters-negative-number
 
 print("Square root of {} is approx {}" .format(a, newton_method(a))) # Calls the function and prints the answer
