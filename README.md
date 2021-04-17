@@ -4,6 +4,10 @@
     I used the reference:
         https://stackoverflow.com/questions/36048713/3-arguments-calculating-bmi-python
         https://www.thecalculatorsite.com/articles/health/bmi-formula-for-bmi-calculations.php
+        https://www.includehelp.com/python/asking-the-user-for-integer-input-in-python-limit-the-user-to-input-only-integer-value.aspx
+        https://pythonbasics.org/try-except/
+        https://stackoverflow.com/questions/22214787/python-repeat-while-user-enters-negative-number
+        https://www.tutorialspoint.com/python/python_continue_statement.htm
     
     The formula to calculate BMI is BMI = weight (kg) / (height(m ** 2))
 
@@ -42,8 +46,13 @@ I changed this to:
     I used the references:
         https://www.school-for-champions.com/algebra/square_root_approx.htm#.YEEjBWj7Qaa
         https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+        https://stackoverflow.com/questions/20811208/newton-s-method-for-finding-square-roots-in-python
         https://stackoverflow.com/questions/52792987/unused-variable-in-a-for-loop
         https://stackoverflow.com/questions/22214787/python-repeat-while-user-enters-negative-number
+        https://pythonbasics.org/try-except/
+        https://www.includehelp.com/python/asking-the-user-for-integer-input-in-python-limit-the-user-to-input-only-integer-value.aspx
+        https://www.tutorialspoint.com/python/python_continue_statement.htm
+        https://socratic.org/questions/what-is-the-square-root-of-zero
 
 ## Week 7: Program that reads in a text file and outputs the number of e's it contains.
     I used the references:

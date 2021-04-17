@@ -45,4 +45,7 @@ plt.grid() # draws a grid on the plot:
 plt.ylim(0,70) # Sets the limit on the y-axis to 70 to make it neater. 
                 #https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylim.html
 
+# plt.savefig('functions') # The savefig function saves the plot as a png file which is commented out since I
+# already have it saved
+
 plt.show() # The show function is used to display all 3 plots
