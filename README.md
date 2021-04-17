@@ -22,6 +22,10 @@ This code only reversed the code so I changed the 1 to a 2 so that it would only
 ## Week 4: program that inputs any positive integer and if the value is even, divide it by two, but if it is odd, multiply it by three and add one. The Program ends when the current value is 1.
     I used the reference:
         https://stackoverflow.com/questions/13366830/collatz-conjecture-sequence
+        https://www.includehelp.com/python/asking-the-user-for-integer-input-in-python-limit-the-user-to-input-only-integer-value.aspx
+        https://pythonbasics.org/try-except/
+        https://stackoverflow.com/questions/22214787/python-repeat-while-user-enters-negative-number
+    https://www.tutorialspoint.com/python/python_continue_statement.htm
 
 This code had it's first statement as:
 ```
