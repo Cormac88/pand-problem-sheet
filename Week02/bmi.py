@@ -30,7 +30,10 @@ def inputNumber(message):
 weight = (inputNumber('Enter weight (Kg): '))
 height1 = (inputNumber('Enter height (cm): '))
 
-# Asks the user to input their weight in kg and their height in cm
+# These are the variables that the user is asked to input. We are passing
+# the numbers or strings that the user gives as an argument into the function 'def inputNumber(message):'. The
+# variables are weight in kg and their height1 in cm (height1 will be converted into meters squared in a variable
+# called height 2 below).
 
 height2 = ((height1 / 100))**2
 BMI = round(weight / height2, 2)

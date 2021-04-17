@@ -73,5 +73,8 @@ def inputNumber(message):
 	   
 n = (inputNumber("Please enter a positive number: "))
 
+# This is the variable n, the positive number that the user is trying to get the squareroot of. We are passing
+# the number or string that the user gives as an argument into the function 'def inputNumber(message):'.
+
 print("Square root of {} is approx {}" .format(n, round(sqrt(n) ,1)))
 # Calls the function and prints the answer rounded to one decimal place as required.
